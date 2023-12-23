@@ -6,16 +6,16 @@ document.getElementById("btn").addEventListener("click", () => {
   
     switch (operator) {
       case "plus":
-        result.innerHTML = (parseFloat(num1.value) + parseFloat(num2.value)).toFixed(4);
+        result.innerHTML = (parseFloat(num1.value) + parseFloat(num2.value)).toFixed(2);
         break;
       case "min":
-        result.innerHTML = (parseFloat(num1.value) - parseFloat(num2.value)).toFixed(4);
+        result.innerHTML = (parseFloat(num1.value) - parseFloat(num2.value)).toFixed(2);
         break;
       case "multi":
-        result.innerHTML = (parseFloat(num1.value) * parseFloat(num2.value)).toFixed(4);
+        result.innerHTML = (parseFloat(num1.value) * parseFloat(num2.value)).toFixed(2);
         break;
       case "div":
-        result.innerHTML = (parseFloat(num1.value) / parseFloat(num2.value)).toFixed(4);
+        result.innerHTML = (parseFloat(num1.value) / parseFloat(num2.value)).toFixed(2);
         break;
       default:
         break;
